@@ -1,10 +1,15 @@
-/node_modules
-/upload
-/dist
-/.vscode
-/config/config.ini
-package-lock.json
-ahpuoj
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
 /docker/dev/.env
 /docker/dev/data
 /docker/prod/.env
@@ -12,4 +17,4 @@ ahpuoj
 /docker/prod/web
 /docker/prod/core
 /docker/prod/ahpuojv2-deploy/assets/install/config.ini
-/migrate
+
